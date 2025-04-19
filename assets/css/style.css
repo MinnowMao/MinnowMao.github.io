@@ -3,7 +3,7 @@ body,html{
     overscroll-behavior:none;
     margin:0;
     padding:0;
-    background-color: #191d2b;
+    background-color: #f89dd2;
 }
 
 @-webkit-keyframes slidetounlock{
@@ -172,7 +172,7 @@ body,html{
 }
 
 .page-item-each {
-    color: #1F365C;
+    color: #373737;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -196,7 +196,7 @@ body,html{
 
 .page-item {
     border: 0px solid #FFFFFF;
-    background: #FFFFFF ;
+    background: #fef0f7;
     border-radius: 8px;
    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
 }
@@ -216,7 +216,7 @@ body,html{
 }
 
 .page-text-color {
-    color: #fff;
+    color: #373737;
 }
 
 .social-icon-fill path, .social-icon-fill circle, .social-icon-fill rect {
@@ -887,8 +887,8 @@ body,html{
     background: transparent;
     animation: animStar 120s linear infinite;
 
-    box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
-    1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
+    box-shadow: 779px 1331px #f89dd2, 324px 42px #feacdc, 303px 586px #ffcfeb,
+    1312px 276px #fef0f7, 451px 625px #fcde99, 521px 1931px #ffcfeb, 1087px 1871px #ffc0e4,
     36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
     1448px 1157px #fff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
     1629px 835px #fff, 479px 969px #fff, 1231px 960px #fff, 586px 384px #fff,
@@ -1074,8 +1074,8 @@ body,html{
     height: 1px;
     background: transparent;
 
-    box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
-    1312px 276px #fff, 451px 625px #fff, 521px 1931px #fff, 1087px 1871px #fff,
+    box-shadow: 779px 1331px #f89dd2, 324px 42px #feacdc, 303px 586px #ffcfeb,
+    1312px 276px #fef0f7, 451px 625px #fcde99, 521px 1931px #ffcfeb, 1087px 1871px #ffc0e4,
     36px 1546px #fff, 132px 934px #fff, 1698px 901px #fff, 1418px 664px #fff,
     1448px 1157px #fff, 1084px 232px #fff, 347px 1776px #fff, 1722px 243px #fff,
     1629px 835px #fff, 479px 969px #fff, 1231px 960px #fff, 586px 384px #fff,
@@ -1450,4 +1450,17 @@ body,html{
     to {
         transform: translateY(-2000px);
     }
+}
+
+.social-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #ffcfeb;
+    color: #373737;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
 }

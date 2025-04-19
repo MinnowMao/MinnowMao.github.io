@@ -10,6 +10,41 @@
         <title>MinnowMao Stream Links</title>
         <meta name="description" content="Links to MinnowMao's streaming channels and social media">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+        <style>
+            body { 
+                background-color: #f89dd2; 
+            }
+            .page-title, .page-bio {
+                color: #373737;
+            }
+            .page-item-each {
+                background-color: #fef0f7;
+                color: #373737;
+                border: 2px solid #feacdc;
+            }
+            .page-item-each:hover {
+                background-color: #ffcfeb;
+                transform: scale(1.02);
+                transition: all 0.3s ease;
+            }
+            .social-email-btn {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #ffcfeb;
+                color: #373737;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 600;
+                border: 2px solid #feacdc;
+                margin-top: 20px;
+            }
+            .social-email-btn:hover {
+                background-color: #feacdc;
+            }
+            .animated-background {
+                background-color: #ffc0e4;
+            }
+        </style>
     </head>
     <body>
         <!-- Snowfall Background Animation -->
@@ -29,7 +64,7 @@
 
             <div class="mt-48 page-full-wrap relative ">
                 <input type="hidden" value="creator-page" id="page-type">
-                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/images/logo.png" alt="MinnowMao Profile Image"/>
+                <img class="display-image m-auto" style="max-width: 120px; height: auto; border: 3px solid #feacdc;" src="https://i.ibb.co/pKGvdqt/minnowmao-profile.png" alt="MinnowMao Profile Image"/>
                 <h2 class="page-title page-text-color page-text-font mt-16 text-center">MinnowMao</h2>
                 <p class="page-bio page-text-color page-text-font text-center">Streamer | Gamer | Content Creator</p>
                        
@@ -82,14 +117,16 @@
                             <img class="link-each-image" src="https://cdn-icons-png.flaticon.com/512/2389/2389756.png" alt="Support me"/>
                             <span class="item-title text-center">Support my streams</span>
                         </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank" class="page-item-each py-10 flex-both-center" href="mailto:guppyandminnow@gmail.com" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Business Email"/>
+                            <span class="item-title text-center">Business Email</span>
+                        </a>
                     </div>                    
                 </div>
                 
-                <div class="mt-28 page-social social-icon-div">
-                    <a style="text-decoration: none;" href="mailto:contact@example.com">
-                        <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email me">
-                    </a>
-                </div>
                 <div class="mt-16 text-center page-text-color page-text-font">
                     <p>© 2024 MinnowMao | All Rights Reserved</p>
                 </div>                                                                              
