@@ -12,7 +12,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
         <style>
             body { 
-                background-color: #f89dd2; 
+                background-color: #ffcfeb;
+                margin: 0;
+                padding: 0;
             }
             .page-title, .page-bio {
                 color: #373737;
@@ -20,51 +22,37 @@
             .page-item-each {
                 background-color: #fef0f7;
                 color: #373737;
-                border: 2px solid #feacdc;
+                border: 1px solid #ffcfeb;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
             }
             .page-item-each:hover {
                 background-color: #ffcfeb;
-                transform: scale(1.02);
+                transform: scale(1.01);
                 transition: all 0.3s ease;
+                border-color: #f89dd2;
             }
-            .social-email-btn {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #ffcfeb;
+            .display-image {
+                border-radius: 50%;
+                max-width: 120px;
+                height: auto;
+                border: 2px solid #f89dd2;
+                box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            }
+            .copyright {
                 color: #373737;
-                border-radius: 8px;
-                text-decoration: none;
-                font-weight: 600;
-                border: 2px solid #feacdc;
-                margin-top: 20px;
-            }
-            .social-email-btn:hover {
-                background-color: #feacdc;
-            }
-            .animated-background {
-                background-color: #ffc0e4;
+                font-size: 14px;
             }
         </style>
     </head>
     <body>
-        <!-- Snowfall Background Animation -->
-        <section class="animated-background">
-            <div id="stars1"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-        </section>
-        <!-- End of Snowfall Background Animation -->
-
         <div class="min-h-full flex-h-center" id="background_div">
             <input type="hidden" value="https://bio.link" id="app-url">
-                <input type="hidden" value="null" id="is-featured">
-                    <canvas id="bg-canvas" class="background-overlay"></canvas>
-                </input>
-            </input>
+            <input type="hidden" value="null" id="is-featured">
+            <canvas id="bg-canvas" class="background-overlay"></canvas>
 
             <div class="mt-48 page-full-wrap relative ">
                 <input type="hidden" value="creator-page" id="page-type">
-                <img class="display-image m-auto" style="max-width: 120px; height: auto; border: 3px solid #feacdc;" src="https://i.ibb.co/pKGvdqt/minnowmao-profile.png" alt="MinnowMao Profile Image"/>
+                <img class="display-image m-auto" src="assets/images/minnowmao_icon.png" alt="MinnowMao Profile Image"/>
                 <h2 class="page-title page-text-color page-text-font mt-16 text-center">MinnowMao</h2>
                 <p class="page-bio page-text-color page-text-font text-center">Streamer | Gamer | Content Creator</p>
                        
@@ -127,15 +115,12 @@
                     </div>                    
                 </div>
                 
-                <div class="mt-16 text-center page-text-color page-text-font">
-                    <p>© 2024 MinnowMao | All Rights Reserved</p>
+                <div class="mt-16 text-center page-text-font">
+                    <p class="copyright">© 2024 MinnowMao | All Rights Reserved</p>
                 </div>                                                                              
             </div>
         </div>
     </body>
 
-    <!--
-    A different snowfall    
-    <script  src="assets/js/snowfall.js"></script>
-    -->
+    <script src="assets/js/snowfall.js"></script>
 </html>
